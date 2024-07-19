@@ -1,0 +1,26 @@
+/* DateRangePicker.css */
+.flatpickr-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.calendar-icon {
+  margin-right: 8px; /* Adjust spacing as needed */
+  font-size: 1.5em;
+  color: gray; /* Adjust color as needed */
+}
+
+.datepicker-input {
+  flex: 1;
+  padding-left: 2em; /* Adjust padding to prevent text overlap with icon */
+  background-color: white; /* dark:bg-slate-800 */
+  color: gray; /* text-slate-500 */
+  border: none;
+  outline: none;
+}
